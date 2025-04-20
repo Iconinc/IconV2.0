@@ -9,7 +9,7 @@ interface ButtonProps {
   click?: () => void;
 }
 
-const baseClass = "px-6 py-4 hover:bg-slate-100 duration-300 rounded-lg";
+const baseClass = "px-6 py-4 duration-300 rounded-lg cursor-pointer";
 
 const Button: FC<ButtonProps> = ({ path, children, className, click }) => {
   const combinedClass = clsx(baseClass, className);

@@ -2,6 +2,7 @@
 import React from "react";
 import Container from "../shared/Container";
 import Button from "../ui/Button";
+import { HiMenuAlt4 } from "react-icons/hi";
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
           <div className="flex items-center gap-6 lg:gap-12">
             <h1 className=" font-black text-3xl flex items-start text-blue-600 pl-2">
               ICON
-              <span className="text-xs -ml-1 border p-2 scale-50">TM</span>
+              <span className="text-xs -ml-1 border-2 p-1 scale-50">TM</span>
             </h1>
             <div className="font-medium hidden lg:flex items-center text-slate-700">
               <Button path="">Home</Button>
@@ -33,7 +34,7 @@ const Navbar = () => {
               click={() => console.log("Clicked")}
               className="!border-blue-600 bg-blue-600 hover:!bg-blue-700 text-white !rounded-full"
             >
-              Menu
+              <HiMenuAlt4 />
             </Button>
           </div>
         </div>

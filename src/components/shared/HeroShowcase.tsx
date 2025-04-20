@@ -72,7 +72,7 @@ const HeroShowcase = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -30 }}
             transition={{ duration: 0.4 }}
-            className="w-full bg-blue-600 text-white rounded-2xl md:rounded-4xl h-[424px] lg:h-[520px] p-4 text-xl font-semibold flex items-start justify-start"
+            className="w-full bg-blue-600/10 text-white border border-white/50 rounded-2xl md:rounded-4xl h-[424px] lg:h-[520px] p-4 text-xl font-semibold flex items-start justify-start"
           >
             <p className="text-sm">
               {icons[activeIndex].id.charAt(0).toUpperCase() +
